@@ -1,0 +1,38 @@
+body {
+    /* background-color: #ffffff;
+    background-image: linear-gradient(219deg, #ffffff 0%, #FFDEE9 50%, #B5FFFC 100%);
+    /* background-image: url("https://c1.wallpaperflare.com/preview/804/808/894/apple-computer-macbook-notebook-thumbnail.jpg"); */
+    /* background-repeat: no-repeat;
+    background-size: ;
+    background-position: center center;
+    width: 100vw; */
+    background-image: url("https://pcenagpur.edu.in/img_akki/pce_home_01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading {
+    text-align: center;
+}
+
+.container {
+    display: felx;
+    flex-direction: coloumn;
+    justify-content: space-evenly;
+    text-align: center;
+    /* //background-color: aliceblue; */
+}
+
+.child {
+    background-color: brown;
+    width: 600px;
+    height: 75px;
+    margin-left: 28%;
+    margin-top: 5%;
+    border-radius: 100px 10px 100px 10px;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 10px 0 10px black;
+    font-size: 30px;
+}
